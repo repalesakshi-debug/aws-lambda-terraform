@@ -1,0 +1,13 @@
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+**/lambda_function.zip
+crash.log
+crash.*.log
+.env
+*.pem
+*.key
+C:\aws-lambda-terraform\environments\dev\.terraform.lock.hcl
+C:\aws-lambda-terraform\environments\dev\.terraform
